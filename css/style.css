@@ -29,6 +29,7 @@ body {
     padding: 10px;
     position: fixed;
     text-align: center;
+    z-index: 2;
   }
   .nav {
     display: flex;
@@ -38,6 +39,7 @@ body {
     margin: 0 auto;
     padding: 0;
   }
+  
   
   .nav .name {
       display: block;
@@ -184,7 +186,7 @@ body {
 }
 
 .container-2 .card{
-    position: relative;
+    
     cursor: pointer;
 }
 
